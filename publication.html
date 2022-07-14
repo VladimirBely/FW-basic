@@ -41,7 +41,44 @@
             class="logo-mobile" />
           <img src="img/Logo Subsection.png" alt="" class="logo"
         /></a>
-        <img class="hamburger" src="img/Hamburger.svg" alt="" />
+        <div class="hamburger-menu">
+          <button class="hamburger-btn" id="hamburger-btn">
+            <img class="hamburger" src="img/Hamburger.svg" alt="" />
+          </button>
+          <div class="nav-menu" id="nav-menu">
+            <header class="nav-menu-header">
+              <div class="header-wrapper">
+                <img src="img/mini-logo.svg" alt="" />
+                <button class="close-btn" id="close-btn">
+                  <img src="img/close.svg" alt="" />
+                </button>
+              </div>
+            </header>
+            <ul class="nav-list-menu">
+              <li class="nav-list-item">
+                <a href="about.html" class="nav-link nav-link-blue">о нас</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="services.html" class="nav-link nav-link-blue"
+                  >послуги</a
+                >
+              </li>
+              <li class="nav-list-item">
+                <a href="team.html" class="nav-link nav-link-blue">команда</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="publication.html" class="nav-link nav-link-blue"
+                  >публікації</a
+                >
+              </li>
+              <li class="nav-list-item">
+                <a href="contacts.html" class="nav-link nav-link-blue"
+                  >контакти</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
         <ul class="nav-list list">
           <li><a href="about.html" class="nav-link nav-link-blue">о нас</a></li>
           <li>
@@ -286,9 +323,10 @@
             <a class="email-link" href="#">contact@hlegals.net</a>
           </div>
         </div>
-
         <h3 class="footer-h3">© 2021 ТОВ Юридична компанія «HLEGALS»</h3>
       </div>
     </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/hamburger-script.js"></script>
   </body>
 </html>

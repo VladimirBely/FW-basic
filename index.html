@@ -39,7 +39,44 @@
             alt=""
             class="logo-mobile"
           />
-          <img class="hamburger" src="img/Hamburger (1).svg" alt="" />
+          <div class="hamburger-menu">
+            <button class="hamburger-btn" id="hamburger-btn">
+              <img class="hamburger" src="img/Hamburger (1).svg" alt="" />
+            </button>
+            <div class="nav-menu" id="nav-menu">
+              <header class="nav-menu-header">
+                <div class="header-wrapper">
+                  <img src="img/mini-logo.svg" alt="" />
+                  <button class="close-btn" id="close-btn">
+                    <img src="img/close.svg" alt="" />
+                  </button>
+                </div>
+              </header>
+              <ul class="nav-list-menu">
+                <li class="nav-list-item">
+                  <a href="about.html" class="nav-link nav-link-blue">о нас</a>
+                </li>
+                <li class="nav-list-item">
+                  <a href="services.html" class="nav-link nav-link-blue"
+                    >послуги</a
+                  >
+                </li>
+                <li class="nav-list-item">
+                  <a href="team.html" class="nav-link nav-link-blue">команда</a>
+                </li>
+                <li class="nav-list-item">
+                  <a href="publication.html" class="nav-link nav-link-blue"
+                    >публікації</a
+                  >
+                </li>
+                <li class="nav-list-item">
+                  <a href="contacts.html" class="nav-link nav-link-blue"
+                    >контакти</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
           <ul class="nav-list list">
             <li>
               <a href="about.html" class="nav-link nav-link-white">о нас</a>
@@ -388,31 +425,6 @@
         </div>
       </div>
     </section>
-    <!-- <section class="publication-mobile">
-      <div class="publication-container">
-        <a class="publication-link" href="#">Публікації ></a>
-        <h6 class="publication-heading">Нам є що розказати</h6>
-        <div class="publication-blocks">
-          <div class="publication-block">
-            <p class="publication-info">
-              Валютний контроль помер, хай живе валютний контроль!
-            </p>
-            <p class="publication-date">14 червня</p>
-          </div>
-          <div class="publication-block">
-            <img src="img/publication-img1.png" alt="" />
-            <p class="publication-info">Equity associate</p>
-            <p class="publication-date">22 квітня</p>
-          </div>
-          <div class="publication-block">
-            <img src="img/publication-img2.png" alt="" />
-            <p class="publication-info">Заповіт міленіала</p>
-            <p class="publication-date">19 серпня</p>
-          </div>
-        </div>
-        <button class="publication-btn">Ще публікації</button>
-      </div>
-    </section> -->
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-left">
@@ -442,5 +454,7 @@
         <h3 class="footer-h3">© 2021 ТОВ Юридична компанія «HLEGALS»</h3>
       </div>
     </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/hamburger-script.js"></script>
   </body>
 </html>
