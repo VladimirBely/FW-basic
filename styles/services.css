@@ -1,0 +1,136 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.sp-container {
+  background-image: url(../img/Bg-mod.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  border-radius: 0px 0px 12px 12px;
+  /* background-image: url(../img/Cover-keyboard.png),
+    linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643e72 87.46%);
+   */
+  padding-bottom: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header-bottom {
+  height: 50px;
+}
+
+/* .logo,
+.publication-p,
+#block4,
+#block5,
+#block6 {
+  display: none;
+} */
+
+.IS-section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.gradient-text-h {
+  margin: 20px auto 20px;
+}
+
+.intro-p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 26px;
+}
+
+.intro-btn {
+  display: block;
+  margin: 40px auto 0;
+  background-color: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  border: none;
+  height: 50px;
+  width: 250px;
+}
+
+.services-section {
+  border-top: 4px solid #ffffff;
+  padding-top: 20px;
+}
+
+.services-h3 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+
+.services-list {
+  margin: 0;
+  padding: 0 0 0 6%;
+}
+
+.service-item {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 15px;
+  line-height: 26px;
+}
+
+.service-item:last-child {
+  margin-bottom: 0;
+}
+
+.service-item::marker {
+  color: red;
+}
+
+.cases {
+  margin: 20px auto 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    width: 60%;
+    margin: 0 auto 40px;
+    text-align: center;
+  }
+
+  .services-section {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .services-list {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0 0 0 2%;
+    width: 46%;
+    column-gap: 25%;
+    height: 360px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .services-list {
+    height: 250px;
+  }
+}

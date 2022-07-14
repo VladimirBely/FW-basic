@@ -1,0 +1,52 @@
+.team-section {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0 40px;
+}
+
+.gradient-text-h {
+  margin: 0;
+}
+
+.team-members {
+  padding-top: 20px;
+}
+
+.team-member {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tm-photo {
+  width: 158px;
+  height: 191px;
+}
+
+.tm-desc-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 20px;
+}
+
+.tm-name {
+  width: 80%;
+  font-size: 18px;
+  color: #323264;
+  margin: 0;
+}
+
+.tm-position {
+  font-size: 16px;
+  color: #b3b3ba;
+  margin: 5px 0 10px;
+}
+
+.zoom {
+  transition: 0.3s;
+  width: 32px;
+  height: 32px;
+}
+.zoom:hover {
+  transform: scale(1.2);
+}

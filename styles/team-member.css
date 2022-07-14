@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+}
+
+.team-member-section {
+  padding-top: 20px;
+  padding-bottom: 22px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tm-photo {
+  width: 100%;
+}
+
+.gradient-text-h {
+  margin-bottom: 10px;
+}
+
+.tm-position {
+  font-size: 16px;
+  color: #b3b3ba;
+  margin: 0 0 10px;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.contact-item:last-child {
+  margin-bottom: 20px;
+}
+
+.contact-link {
+  font-size: 16px;
+  color: #24a3ff;
+  text-decoration: none;
+}
+
+.tm-info {
+  border-top: 4px solid #e6e6f0;
+}
+
+.info-txt {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000;
+}
+
+.info-heading {
+  font-size: 14px;
+  color: #323264;
+  text-transform: uppercase;
+  line-height: 17px;
+  letter-spacing: 1px;
+}

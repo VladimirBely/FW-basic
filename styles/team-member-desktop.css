@@ -1,0 +1,83 @@
+@media screen and (min-width: 586px) {
+  .team-member-section {
+    width: 75%;
+  }
+
+  .tm-photo {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .tm-main-info {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-member-section {
+    width: 60%;
+  }
+
+  .tm-photo {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .team-member-section {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 35% 55%;
+    column-gap: 5%;
+  }
+
+  .tm-photo {
+    width: 100%;
+    max-height: 460px;
+    max-width: 380px;
+  }
+  .tm-main-info {
+    text-align: left;
+  }
+
+  .tm-main-info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contacts-list {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    list-style: disc;
+  }
+
+  .contact-item::marker {
+    color: #e6e6f0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team-member-section {
+    width: 70%;
+    grid-template-columns: 30% 65%;
+  }
+  .tm-main-info {
+    justify-content: flex-start;
+  }
+
+  .tm-position {
+    margin-right: 3%;
+  }
+
+  .contacts-list {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contacts-list {
+    width: 50%;
+  }
+}

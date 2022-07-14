@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.contacts-section {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 0 40px;
+}
+
+.block {
+  border-bottom: 4px solid #e6e6f0;
+  padding: 20px 0 20px;
+}
+
+.txt {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.c-adress {
+  color: #323264;
+}
+
+#n-block {
+  padding: 40px 0 40px;
+}
+
+.c-number {
+  color: #46466e;
+  margin-bottom: 20px;
+}
+
+.email-link {
+  color: #24a3ff;
+  text-decoration: none;
+}
+
+.facebook {
+  padding: 25px 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fb-img {
+  margin: 0 10px 0 0;
+}
+
+.c-fb-link {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+  text-decoration: none;
+}
+
+.form-bg {
+  background-color: #f5f5fa;
+  width: 100%;
+  padding: 20px 0 20px;
+  margin-bottom: 40px;
+  border-radius: 12px;
+}
+
+.form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.gradient-text-h {
+  margin: 0;
+}
+
+.c-form {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background: #ffffff;
+  border-radius: 8px;
+  border: none;
+  height: 47px;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: #b3b3ba;
+  font-size: 18px;
+  line-height: 26px;
+  margin-left: 10px;
+}
+
+#name {
+  margin-bottom: 20px;
+}
+
+#message {
+  background: #ffffff;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 0 0 10px;
+}
+
+.form-heading {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b3b3ba;
+  margin: 20px 0 20px;
+}
+
+#tel-number {
+  margin-bottom: 8px;
+}
+
+#e-mail {
+  margin-bottom: 20px;
+}
+
+#submit-btn {
+  display: block;
+  background-color: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  width: 250px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.map{
+    height: 600px;
+}

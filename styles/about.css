@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.IA-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.introduction {
+  border-bottom: 4px solid #e6e6f0;
+  margin-bottom: 15px;
+}
+
+.i-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.i-p {
+  font-size: 18px;
+}
+
+.advantages {
+  width: 90%;
+  padding-top: 0;
+}
+
+.a-heading {
+  font-weight: 400;
+  font-size: 18px;
+  color: #323264;
+  margin-bottom: 20px;
+}
+
+.quality {
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+
+.q-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.q-p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+
+.q-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.achievments {
+  width: 100%;
+  background-color: #f5f5fa;
+  border-radius: 12px 12px 0px 0px;
+  padding-top: 28px;
+  padding-bottom: 30px;
+}
+
+.achievments-heading {
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 auto 30px;
+}
+
+.a-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.a-img {
+  width: 46.6%;
+  margin-bottom: 30px;
+}
+
+.slider-img {
+  display: block;
+  margin: auto;
+}

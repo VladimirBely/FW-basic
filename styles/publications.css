@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.publications-bg {
+  margin: 20px auto 0;
+  border-radius: 12px 12px 0px 0px;
+  padding-bottom: 40px;
+}
+
+.checkbox-wrapper {
+  background-color: #e6e6f0;
+  width: 260px;
+  height: 40px;
+  border-radius: 12px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-btn {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  width: 127px;
+  height: 36px;
+}
+
+.company-btn {
+  background-color: #e6e6f0;
+  border: none;
+  width: 131px;
+}
+
+.publications-container {
+  height: fit-content;
+  overflow: inherit;
+  padding-bottom: 0;
+}
+.publications {
+  padding-top: 22px;
+}
+
+.publication-block {
+  margin-bottom: 20px;
+}
+
+#block6 {
+  margin-bottom: 40px;
+}
+
+#block4,
+#block5,
+#block6 {
+  display: block;
+}
+
+/* #block1, #block2, #block3, #block4, #block5, #block6{
+  order: initial;
+} */
