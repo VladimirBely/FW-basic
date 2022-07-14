@@ -15,27 +15,12 @@ body {
   background-position-x: center;
   background-position-y: top;
   border-radius: 0px 0px 12px 12px;
-  /* background-image: url(../img/Cover-keyboard.png),
-    linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643e72 87.46%);
-   */
   padding-bottom: 20px;
 }
 
 .header {
   margin-bottom: 20px;
 }
-
-.header-bottom {
-  height: 50px;
-}
-
-/* .logo,
-.publication-p,
-#block4,
-#block5,
-#block6 {
-  display: none;
-} */
 
 .IS-section {
   width: 90%;

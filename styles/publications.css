@@ -56,12 +56,8 @@ body {
   margin-bottom: 40px;
 }
 
-#block4,
+#block3,
 #block5,
 #block6 {
   display: block;
 }
-
-/* #block1, #block2, #block3, #block4, #block5, #block6{
-  order: initial;
-} */

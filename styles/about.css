@@ -41,6 +41,10 @@
   margin-bottom: 40px;
 }
 
+.q-img-mobile {
+  width: 100%;
+}
+
 .q-container {
   width: 90%;
   margin: 0 auto;
