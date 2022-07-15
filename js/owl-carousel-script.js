@@ -3,6 +3,8 @@ $(document).ready(function () {
       items: 1,
       autoplay: true,
       loop: true,
+      smartSpeed: 800,
+      autoplayTimeout: 2000,
       responsiveRefreshRate: 50,
     });
   });
