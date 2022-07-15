@@ -200,27 +200,6 @@
     margin: 20px 0 80px;
   }
 
-  .team {
-    margin: 20px auto 40px;
-  }
-
-  .t-container {
-    display: flex;
-    padding: 0;
-  }
-
-  .t-img {
-    display: none;
-  }
-
-  .t-img-desktop {
-    display: block;
-  }
-
-  .t-right {
-    margin: 40px 0 0 40px;
-  }
-
   .cases {
     display: block;
   }

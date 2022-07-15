@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>homepage</title>
     <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/homepage-mobile.css" />
-    <link rel="stylesheet" href="styles/homepage-desktop.css" />
+    <link rel="stylesheet" href="styles/owl.carousel.min.css" />
+    <link rel="stylesheet" href="styles/team-owl-carousel.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/footer.css" />
+    <!-- <link rel="stylesheet" href="styles/owl.theme.default.min.css" /> -->
+    <link rel="stylesheet" href="styles/homepage-mobile.css" />
+    <link rel="stylesheet" href="styles/homepage-desktop.css" />
     <link rel="stylesheet" href="fonts/fontstyles.css" />
   </head>
   <body>
@@ -17,7 +20,7 @@
       <header class="header">
         <div class="header-top">
           <ul class="lang-list list">
-            <li><a class="lang-link lang-link-grey active" href="#">УК</a></li>
+            <li><a class="lang-link lang-link-grey lang-link-active" href="#">УК</a></li>
             <li><a class="lang-link lang-link-grey" href="#">РУ</a></li>
             <li><a class="lang-link lang-link-grey" href="#">ENG</a></li>
           </ul>
@@ -220,24 +223,78 @@
       <div class="card-show cs2"></div>
     </section>
     <section class="team">
-      <div class="t-container">
-        <img class="t-img-desktop" src="img/T-member-desktop.png" alt="" />
-        <div class="t-right">
-          <a class="t-link" href="#">команда ></a>
-          <h4 class="t-heading">
-            Ми звикли брати на себе відповідальність та завжди гарантуємо чесну,
-            вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
-          </h4>
-          <div class="t-member">
-            <img class="t-img" src="img/team-image.png" alt="" />
-            <div class="t-desc">
-              <h4 class="t-name">Олександр Кац</h4>
-              <h5 class="t-position">Керуючий партнер</h5>
+      <div id="main-carousel" class="owl-carousel">
+        <div class="item">
+          <div class="t-img-desktop">
+            <img src="img/T-member-desktop.png" alt="" />
+          </div>
+          <div class="t-right">
+            <a class="t-link" href="#">команда ></a>
+            <h4 class="t-heading">
+              Ми звикли брати на себе відповідальність та завжди гарантуємо
+              чесну, вчасну допомогу, навіть у ситуаціях, коли більшість
+              безсилі.
+            </h4>
+            <div class="t-member">
+              <div class="t-img-mobile">
+                <img src="img/team-image.png" alt="" />
+              </div>
+              <div class="t-desc">
+                <h4 class="t-name t-name-mobile">Олександр Кац</h4>
+                <h4 class="t-name t-name-desktop">Олександр Олександровський</h4>
+                <h5 class="t-position">Керуючий партнер</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="t-img-desktop">
+            <img src="img/T-member-desktop.png" alt="" />
+          </div>
+          <div class="t-right">
+            <a class="t-link" href="#">команда ></a>
+            <h4 class="t-heading">
+              Ми звикли брати на себе відповідальність та завжди гарантуємо
+              чесну, вчасну допомогу, навіть у ситуаціях, коли більшість
+              безсилі.
+            </h4>
+            <div class="t-member">
+              <div class="t-img-mobile">
+                <img src="img/team-image.png" alt="" />
+              </div>
+              <div class="t-desc">
+                <h4 class="t-name t-name-mobile">Олександр Кац</h4>
+                <h4 class="t-name t-name-desktop">Олександр Олександровський</h4>
+                <h5 class="t-position">Керуючий партнер</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="t-img-desktop">
+            <img src="img/T-member-desktop.png" alt="" />
+          </div>
+          <div class="t-right">
+            <a class="t-link" href="#">команда ></a>
+            <h4 class="t-heading">
+              Ми звикли брати на себе відповідальність та завжди гарантуємо
+              чесну, вчасну допомогу, навіть у ситуаціях, коли більшість
+              безсилі.
+            </h4>
+            <div class="t-member">
+              <div class="t-img-mobile">
+                <img src="img/team-image.png" alt="" />
+              </div>
+              <div class="t-desc">
+                <h4 class="t-name t-name-mobile">Олександр Кац</h4>
+                <h4 class="t-name t-name-desktop">Олександр Олександровський</h4>
+                <h5 class="t-position">Керуючий партнер</h5>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <img class="t-group" src="img/Group 2 (3).png" alt="" />
+      <!-- <img class="t-group" src="img/Group 2 (3).png" alt="" /> -->
     </section>
     <section class="cases">
       <div class="line1">
@@ -455,6 +512,8 @@
       </div>
     </footer>
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/hamburger-script.js"></script>
+    <script src="js/owl-carousel-script.js"></script>
   </body>
 </html>
