@@ -279,10 +279,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .E-type:active::after {
-    right: -0.7%;
-  }
-
   .E-type-active {
     right: -0.7%;
     border-right: 4px solid #f0145a;
@@ -290,12 +286,8 @@
 }
 
 @media screen and (min-width: 1600px) {
-  .E-type:active::after {
-    right: -0.6%;
-  }
-
   .E-type-active {
-    right: -0.6%;
+    right: -0.45%;
     border-right: 4px solid #f0145a;
   }
 }
