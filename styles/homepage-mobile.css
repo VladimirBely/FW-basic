@@ -83,7 +83,7 @@
   display: none;
 }
 
-.experience-carousel{
+.experience-carousel {
   width: 90%;
   margin: 0 auto;
 }
@@ -367,7 +367,7 @@
   margin: 0 auto;
   bottom: 0;
   left: 0;
-  background-color: #f5f5fa
+  background-color: #f5f5fa;
 }
 
 .publication-btn {
@@ -381,13 +381,21 @@
   border-radius: 12px;
   border: none;
   margin: 15px auto 0;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.publication-btn:hover{
+.publication-btn:hover {
   transform: scale(1.1);
 }
 
-#close-btn-homepage{
+#close-btn-homepage {
   display: none;
+}
+
+.clients-logo {
+  transition: all 0.3s ease-in-out;
+}
+
+.clients-logo:hover {
+  transform: scale(1.25);
 }
