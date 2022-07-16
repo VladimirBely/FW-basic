@@ -94,15 +94,6 @@
   .publication-btn {
     margin: 30px auto 0;
   }
-
-  .publication-block:nth-child(4) {
-    order: 4;
-  }
-
-  /* #block5,
-  #block6 {
-    display: none;
-  } */
 }
 
 @media screen and (min-width: 1024px) {

@@ -1,7 +1,5 @@
 @media screen and (max-width: 767px) {
   .q-img-desk,
-  #a-img3,
-  #a-img4,
   .desk {
     display: none;
   }
@@ -62,10 +60,6 @@
 
   .q-p {
     margin-top: 0;
-  }
-
-  .a-container {
-    flex-wrap: nowrap;
   }
 
   .a-img {

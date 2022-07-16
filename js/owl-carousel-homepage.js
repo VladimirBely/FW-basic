@@ -4,8 +4,8 @@ $(document).ready(function () {
     autoplay: true,
     loop: true,
     smartSpeed: 800,
-    autoplayTimeout: 2000,
-    responsiveRefreshRate: 50,
+    autoplayTimeout: 3000,
+    responsiveRefreshRate: 60,
   });
 });
 
@@ -15,7 +15,8 @@ $(document).ready(function () {
     autoplay: true,
     loop: true,
     smartSpeed: 800,
-    autoplayTimeout: 2000,
-    responsiveRefreshRate: 50,
+    autoplayTimeout: 3000,
+    responsiveRefreshRate: 60,
   });
 });
+

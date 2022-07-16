@@ -18,7 +18,9 @@
     <header class="header">
       <div class="header-top">
         <ul class="lang-list list">
-          <li><a class="lang-link lang-link-grey active" href="#">УК</a></li>
+          <li>
+            <a class="lang-link lang-link-grey lang-link-active" href="#">УК</a>
+          </li>
           <li><a class="lang-link lang-link-grey" href="#">РУ</a></li>
           <li><a class="lang-link lang-link-grey" href="#">ENG</a></li>
         </ul>
@@ -87,7 +89,11 @@
           <li>
             <a href="team.html" class="nav-link nav-link-blue">команда</a>
           </li>
-          <li><a href="publication.html" class="nav-link nav-link-blue">публікації</a></li>
+          <li>
+            <a href="publication.html" class="nav-link nav-link-blue"
+              >публікації</a
+            >
+          </li>
           <li>
             <a href="contacts.html" class="nav-link nav-link-blue">контакти</a>
           </li>
@@ -95,7 +101,7 @@
       </div>
     </header>
     <section class="publications-bg">
-      <div class="publications-container">
+      <div class="publications-container" id="publications-container-p">
         <div class="checkbox-wrapper">
           <button class="news-btn">новини</button>
           <button class="company-btn">компанія</button>
@@ -295,8 +301,11 @@
             </div>
           </article>
         </div>
+        <div class="publication-shadow">
+          <button class="publication-btn" id="publication-btn-p">Ще публікації</button>
+          <button class="publication-btn" id="close-btn-p">Згорнути</button>
+        </div>
       </div>
-      <button class="publication-btn">Ще публікації</button>
     </section>
     <footer class="footer">
       <div class="footer-container">
@@ -328,5 +337,11 @@
     </footer>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/hamburger-script.js"></script>
+    <script>
+      if(screen.width < 1024) {
+          document.head.appendChild(document.createElement('script')).src = "js/p-dropdown-publications.js";
+      }
+      </script>
+    <!-- <script src="js/p-dropdown-publications.js"></script> -->
   </body>
 </html>

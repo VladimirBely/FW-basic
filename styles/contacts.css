@@ -76,6 +76,7 @@ body {
 .form {
   width: 90%;
   margin: 0 auto;
+  position: relative;
 }
 
 .gradient-text-h {
@@ -142,8 +143,13 @@ input {
   width: 250px;
   height: 50px;
   margin: 0 auto;
+  transition: all 0.3s ease-in-out;
 }
 
-.map{
-    height: 600px;
+#submit-btn:hover {
+  transform: scale(1.1);
+}
+
+.map {
+  height: 600px;
 }

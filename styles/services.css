@@ -48,11 +48,18 @@ body {
   box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
   border-radius: 12px;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 48px;
   color: #fff;
   border: none;
   height: 50px;
   width: 250px;
+  text-decoration: none;
+  text-align: center;
+  transition: all .3s ease-in-out;
+}
+
+.intro-btn:hover{
+  transform: scale(1.1);
 }
 
 .services-section {

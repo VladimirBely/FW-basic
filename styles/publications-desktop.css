@@ -1,12 +1,61 @@
+@media screen and (min-width: 400px) {
+  .publications-container {
+    height: 1975px;
+  }
+
+  .publications {
+    height: 3730px;
+  }
+}
+
+@media screen and (min-width: 460px) {
+  .publications-container {
+    height: 2110px;
+  }
+
+  .publications {
+    height: 3990px;
+  }
+}
+
+@media screen and (min-width: 568px) {
+  .publications-container {
+    height: 2355px;
+  }
+
+  .publications {
+    height: 4500px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .publications-container {
+    height: 2520px;
+  }
+
+  .publications {
+    height: 4830px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .publications-container {
+    height: 2710px;
+  }
+
+  .publications {
+    height: 5185px;
+  }
+}
 @media screen and (max-width: 767px) {
-  #block7,
+  /* #block7,
   #block8,
   #block9,
   #block10,
   #block11,
   #block12 {
     display: none;
-  }
+  } */
 }
 
 @media screen and (min-width: 768px) {
@@ -23,21 +72,29 @@
     order: 1;
   }
 
-  .publication-btn{
+  .publication-btn {
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 876px) {
-  .publications{
+  .publications {
     height: 2900px;
   }
-  
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 900px) {
   .publications {
-    height: 2260px;
+    height: 2998px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .publications-container {
+    height: 2450px;
+  }
+  .publications {
+    height: 2280px;
+    padding-top: 40px;
   }
 
   #block1,
@@ -80,25 +137,38 @@
     order: 2;
   }
 
-
-}
-
-@media screen and (min-width: 1280px){
-  .publications{
-    height: 2110px;
+  .publication-shadow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
 }
 
-@media screen and (min-width: 1440px){
-  .publications{
-    height: 2065px;
+@media screen and (min-width: 1280px) {
+  .publications-container {
+    height: 2320px;
+  }
+  .publications {
+    height: 2125px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .publications-container {
+    height: 2265px;
+  }
+  .publications {
+    height: 2085px;
+    max-width: 1300px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .publications{
-    height: 1950px;
+  .publications-container {
+    height: 2265px;
   }
-  
+  .publications {
+    height: 2090px;
+  }
 }

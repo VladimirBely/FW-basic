@@ -18,7 +18,7 @@
       <header class="header">
         <div class="header-top">
           <ul class="lang-list list">
-            <li><a class="lang-link lang-link-grey active" href="#">УК</a></li>
+            <li><a class="lang-link lang-link-grey lang-link-active" href="#">УК</a></li>
             <li><a class="lang-link lang-link-grey" href="#">РУ</a></li>
             <li><a class="lang-link lang-link-grey" href="#">ENG</a></li>
           </ul>
@@ -123,7 +123,7 @@
             юриста. А ще ми добре знаємо, як важко в Україні знайти хорошого
             кандидата з досвідом у сфері інформаційних технологій.
           </p>
-          <button class="intro-btn">Безкоштовна консультація</button>
+          <a class="intro-btn" href="contacts.html">Безкоштовна консультація</a>
         </div>
 
         <div class="services-section">
@@ -211,7 +211,7 @@
       </div>
     </section>
     <section class="publications-bg">
-      <div class="publications-container">
+      <div class="publications-container" id="publications-container-services">
         <a class="publication-link" href="#">Публікації ></a>
         <h3 class="publication-h">Нам є що розказати</h3>
         <div class="publications">
@@ -331,7 +331,8 @@
           </article>
         </div>
         <div class="publication-shadow">
-          <button class="publication-btn">Ще публікації</button>
+          <button class="publication-btn" id="publication-btn-services">Ще публікації</button>
+          <button class="publication-btn" id="close-btn-services">Згорнути</button>
         </div>
       </div>
     </section>
@@ -365,5 +366,6 @@
     </footer>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/hamburger-script.js"></script>
+    <script src="js/p-dropdown-services.js"></script>
   </body>
 </html>

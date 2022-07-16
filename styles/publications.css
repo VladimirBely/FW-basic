@@ -11,7 +11,6 @@ body {
 .publications-bg {
   margin: 20px auto 0;
   border-radius: 12px 12px 0px 0px;
-  padding-bottom: 40px;
 }
 
 .checkbox-wrapper {
@@ -40,12 +39,13 @@ body {
 }
 
 .publications-container {
-  height: fit-content;
-  overflow: inherit;
   padding-bottom: 0;
+  height: 1925px;
 }
+
 .publications {
   padding-top: 22px;
+  height: 3650px;
 }
 
 .publication-block {
@@ -60,4 +60,8 @@ body {
 #block5,
 #block6 {
   display: block;
+}
+
+#close-btn-p {
+  display: none;
 }
