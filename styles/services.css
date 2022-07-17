@@ -99,6 +99,10 @@ body {
   margin: 20px auto 30px;
 }
 
+#close-btn-services{
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .intro {
     width: 60%;
